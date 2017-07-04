@@ -1,0 +1,5 @@
+* Run server:
+E.g: $ ./tcpserver test.pdf
+
+* Run client: 
+E.g: $ ./tcpclient 127.0.0.1 8080 test_saved.pdf

@@ -1,0 +1,19 @@
+* Server UDP: port 8080
+- run: ./udpserver
+
+* Client UDP: 
+- run: ./udpclient 127.0.0.1 8080
+
+Command example:
+
+give me test.pdf
+
+or:
+
+give me test.txt
+
+or: 
+
+give me mylib.h
+
+.......etc

@@ -1,0 +1,7 @@
+* Run server:
+
+$ ./tcpserver cat.jpg
+
+*Run client:
+
+$ ./tcpclient 127.0.0.1 8080 cat_saved.jpg
