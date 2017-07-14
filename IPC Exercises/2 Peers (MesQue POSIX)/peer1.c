@@ -2,7 +2,6 @@
 
 int main(int argc, char** argv)
 {
-	sem_t *sem_finished_entering = sem_open(SEM_FINISHED_ENTERING, O_CREAT, 0666, 0);
 	sem_t *sem_finished_arranging = sem_open(SEM_FINISHED_ARRANGING, O_CREAT, 0666, 0);
 
 	struct mq_attr attr;
@@ -22,8 +21,6 @@ int main(int argc, char** argv)
 	}
 	int error = mq_send(mqid, (const char*)&myArray, sizeof(myArray), 0);
 	
-	sem_post(sem_finished_entering);
-
 	sem_wait(sem_finished_arranging);
 	mq_receive(mqid, (char*)&myArray, sizeof(myArray), NULL);
 	printf("\nArray after sorting: \n");	
@@ -33,7 +30,6 @@ int main(int argc, char** argv)
 	}
 	printf("\n");
 	mq_close(mqid);
-	sem_close(sem_finished_entering);
 	sem_close(sem_finished_arranging);
 	sem_unlink(SEM_FINISHED_ENTERING);
 	mq_unlink(MQ_NAME);
