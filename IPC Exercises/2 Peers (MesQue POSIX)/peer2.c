@@ -2,11 +2,7 @@
 
 int main(int argc, char** argv)
 {	
-	sem_t *sem_finished_entering = sem_open(SEM_FINISHED_ENTERING, O_CREAT, 0666, 0);
 	sem_t *sem_finished_arranging = sem_open(SEM_FINISHED_ARRANGING, O_CREAT, 0666, 0);
-	
-	sem_wait(sem_finished_entering);
-	
 	mqd_t mqid = mq_open(MQ_NAME, O_RDWR);
 	my_array myArray;
 	ssize_t n = mq_receive(mqid, (char*)&myArray, sizeof(myArray), NULL);
@@ -32,7 +28,6 @@ int main(int argc, char** argv)
 	printf("Finished writing to file!!!\n");
 	
 	mq_close(mqid);
-	sem_close(sem_finished_entering);
 	sem_close(sem_finished_arranging);
 	sem_unlink(SEM_FINISHED_ARRANGING);
 	
