@@ -1,0 +1,11 @@
+*** Compile:
+gcc -o Receiver Receiver.c writen.c readn.c fill_and_send.c 
+gcc -o Sender Sender.c writen.c readn.c fill_and_send.c 
+gcc -o Proxy Proxy.c writen.c readn.c fill_and_send.c -lpthread
+
+*** Test:
+1) run ./Proxy
+
+2) run ./Receiver <number> (number: 1 and 2)
+
+3) run ./Sender <number> (number: 0..50)
