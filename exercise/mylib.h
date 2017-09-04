@@ -18,16 +18,16 @@
 #define FILE_OUT_1 "out1.bin"
 #define FILE_OUT_2 "out2.bin"
 
-#define CLIENT_1_PORT 12534
-#define CLIENT_2_PORT 12525
-#define PROXY_PORT 12574
+#define CLIENT_1_PORT 12572
+#define CLIENT_2_PORT 12589
+#define PROXY_PORT 12594
 
 struct packet
 {
 	uint16_t header;
 	uint8_t type;
+	uint8_t padding;
 	uint16_t length;
-	char tmp[3];
 	char value[];
 };
 

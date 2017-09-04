@@ -13,7 +13,10 @@ int main(int argc, char** argv)
 	strcpy(buffer, "Goodbye World!!!");
 	for(; i < 15; i++)
 		fwrite(buffer, sizeof(buffer), 1, fo);
-
+	i = 0;
+	strcpy(buffer, "Hi all");
+	for(; i < 20; i++)
+		fwrite(buffer, sizeof(buffer), 1, fo);
 	fclose(fo);
 	return 0;
 }

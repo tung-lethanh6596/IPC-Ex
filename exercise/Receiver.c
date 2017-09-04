@@ -43,7 +43,7 @@ int main(int argc, char** argv)
 
 	printf("Receiver has connected!!!\n");
 
-	char buffer[1034];
+	char buffer[1030];
 	int n, i;
 	packet_t *my_packet = NULL;
 	char **recved_packet = (char**)calloc(MAX_SIZE, sizeof(char*));
