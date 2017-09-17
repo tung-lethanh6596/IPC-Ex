@@ -14,6 +14,6 @@ marioIMG.setAttribute("style", "width: 24px; height: 24px; margin: 2px;");
 
 marioLink.appendChild(marioIMG);
 
-marioTask.appendChild(marioTask);
+marioTask.appendChild(marioLink);
 
 TASKS.appendChild(marioTask);
