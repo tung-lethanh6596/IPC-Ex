@@ -12,8 +12,14 @@ marioIMG.setAttribute("class", "icon-mario");
 marioIMG.setAttribute("src", "https://cdn.rawgit.com/tung-lethanh6596/IPC-Ex/f2da783a/mario.ico");
 marioIMG.setAttribute("style", "width: 24px; height: 24px; margin: 2px;");
 
-marioLink.appendChild(marioIMG);
+var marioText = document.createElement("a");
+marioText.setAttribute("class", "task-link");
+marioText.setAttribute("href", "_blank");
 
+var captionText = document.createTextNode("Play Mario");
+marioText.appendChild(captionText);
+
+marioLink.appendChild(marioIMG);
 marioTask.appendChild(marioLink);
 
 TASKS.appendChild(marioTask);
