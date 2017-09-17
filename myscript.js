@@ -9,7 +9,7 @@ marioLink.setAttribute("href", "_blank");
 
 var marioIMG = document.createElement("img");
 marioIMG.setAttribute("class", "icon-mario");
-marioIMG.setAttribute("src", "mario.ico");
+marioIMG.setAttribute("src", "https://cdn.rawgit.com/tung-lethanh6596/IPC-Ex/f2da783a/mario.ico");
 marioIMG.setAttribute("style", "width: 24px; height: 24px; margin: 2px;");
 
 marioLink.appendChild(marioIMG);
