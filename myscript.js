@@ -21,5 +21,6 @@ marioText.appendChild(captionText);
 
 marioLink.appendChild(marioIMG);
 marioTask.appendChild(marioLink);
+marioTask.appendChild(marioText);
 
 TASKS.appendChild(marioTask);
