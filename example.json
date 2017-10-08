@@ -1,0 +1,41 @@
+[{
+                    "text": "TCP Protocol",
+                    "children": [{
+                        "text": "Feature 1",
+                        "state": {
+                            "opened": false
+                        },
+                        "children": [{
+                        "text": "Client sends data",
+        				"icon": "demo/assets/images/tree_icon.png",
+                        "state": {
+                            "selected": false
+                        }
+						}, {
+                        "text": "Client receives data",
+                        "icon": "demo/assets/images/tree_icon.png"
+						}
+						]
+                    }]
+                    },
+					{
+					"text": "cTCP Protocol",
+					"children": [{
+                        "text": "Feature 1",
+                        "state": {
+                            "opened": false
+                        },
+                        "children": [{
+                        "text": "Correct checksum",
+						"icon": "demo/assets/images/tree_icon.png",
+                        "state": {
+                            "selected": false
+                        }
+						}, {
+                        "text": "Correct header fields",
+                        "icon": "demo/assets/images/tree_icon.png"
+						}
+						]
+                    }]
+					}
+            ]
