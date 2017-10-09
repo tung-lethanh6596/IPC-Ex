@@ -9,7 +9,7 @@
                 },
                 "children": [{
                 	"text": "test_suite_1.robot",
-        			"icon": "https://cdn.rawgit.com/tung-lethanh6596/IPC-Ex/453505b4/folder.png",
+        			"icon": "https://cdn.rawgit.com/tung-lethanh6596/IPC-Ex/453505b4/page_icon.png",
                 	"state": {
                 		"selected": false
                 	},
@@ -28,7 +28,7 @@
 				{
                 
                         "text": "test_suite_2.robot",
-                        "icon": "https://cdn.rawgit.com/tung-lethanh6596/IPC-Ex/453505b4/folder.png",
+                        "icon": "https://cdn.rawgit.com/tung-lethanh6596/IPC-Ex/453505b4/page_icon.png",
                 		"state": {
                 			"selected": false
 						}
