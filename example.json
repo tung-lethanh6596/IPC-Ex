@@ -7,13 +7,13 @@
                         },
                         "children": [{
                         "text": "Client sends data",
-        				"icon": "${rootURL}/plugin/selected-tests-executor/js/demo/assets/images/tree_icon.png",
+        				"icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png",
                         "state": {
                             "selected": false
                         }
 						}, {
                         "text": "Client receives data",
-                        "icon": "${rootURL}/plugin/selected-tests-executor/js/demo/assets/images/tree_icon.png"
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
 						}
 						]
                     }]
@@ -27,13 +27,13 @@
                         },
                         "children": [{
                         "text": "Correct checksum",
-						"icon": "${rootURL}/plugin/selected-tests-executor/js/demo/assets/images/tree_icon.png",
+						"icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png",
                         "state": {
                             "selected": false
                         }
 						}, {
                         "text": "Correct header fields",
-                        "icon": "${rootURL}/plugin/selected-tests-executor/js/demo/assets/images/tree_icon.png"
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
 						}
 						]
                     }]
