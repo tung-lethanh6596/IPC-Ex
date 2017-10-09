@@ -1,8 +1,19 @@
-#!/bin/bash
-res=`echo $tests | grep "testcase" -o | wc -l`
-for (( i=2; $i<=($res + 1); i++))
+#!/bin/sh
+echo $1 |sed 's/;/\n/g' > tmp.txt
+testcases=""
+testfiles=""
+oldtestfile=""
+while read -r test
 do
-	testfile=`echo $tests | cut -d'{' -f$i | cut -d',' -f5 | cut -d':' -f2 | sed 's/"//g' | sed 's/]//g' | sed 's/}//g'`
-	testcase=`echo $tests | cut -d'{' -f$i | cut -d',' -f4 | cut -d':' -f2 | sed 's/"//g' | sed 's/]//g' | sed 's/}//g'`	
-	echo "testcase: $testcase, testfile: $testfile"
-done
+    testcase=`echo $test | cut -d'/' -f4`
+    testfile=`echo $test | cut -d'/' -f1,2,3`
+    testcases="$testcases -t \"$testcase\""
+    if [ "$testfile" != "$oldtestfile" ]
+    then
+    	testfiles="$testfiles $testfile"
+    fi
+    oldtestfile=$testfile
+done < tmp.txt
+script="robot $testcases $testfiles"
+echo $script
+rm -f tmp.txt
