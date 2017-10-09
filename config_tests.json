@@ -1,0 +1,39 @@
+[{
+    "text": "System management",
+    "icon": "https://cdn.rawgit.com/tung-lethanh6596/IPC-Ex/453505b4/folder.png",
+    "children": [{
+                "text": "Logging",
+                "icon": "https://cdn.rawgit.com/tung-lethanh6596/IPC-Ex/453505b4/folder.png",
+                "state": {
+                            "opened": false
+                },
+                "children": [{
+                	"text": "test_suite_1.robot",
+        			"icon": "https://cdn.rawgit.com/tung-lethanh6596/IPC-Ex/453505b4/folder.png",
+                	"state": {
+                		"selected": false
+                	},
+                	"children": [{
+                        "text": "Correct checksum",
+						"icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png",
+                        "state": {
+                            "selected": false
+                        }
+						}, {
+                        "text": "Correct header fields",
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+						}
+						]
+					}, 
+				{
+                
+                        "text": "test_suite_2.robot",
+                        "icon": "https://cdn.rawgit.com/tung-lethanh6596/IPC-Ex/453505b4/folder.png",
+                		"state": {
+                			"selected": false
+						}
+				}
+                ]
+                }
+    ]
+}]
