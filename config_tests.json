@@ -1,39 +1,531 @@
 [{
+
     "text": "System management",
+
     "icon": "https://cdn.rawgit.com/tung-lethanh6596/IPC-Ex/453505b4/folder.png",
+
     "children": [{
+
                 "text": "Logging",
+
                 "icon": "https://cdn.rawgit.com/tung-lethanh6596/IPC-Ex/453505b4/folder.png",
+
                 "state": {
+
                             "opened": false
+
                 },
+
                 "children": [{
-                	"text": "test_suite_1.robot",
-        			"icon": "https://cdn.rawgit.com/tung-lethanh6596/IPC-Ex/453505b4/page_icon.png",
+
+                	"text": "Logging_console.robot",
+
+        			"icon": "https://cdn.rawgit.com/tung-lethanh6596/IPC-Ex/453505b4/folder.png",
+
                 	"state": {
+
                 		"selected": false
+
                 	},
+
                 	"children": [{
-                        "text": "Correct checksum",
+
+                        "text": "Logging console 1: Right config command",
+
 						"icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png",
+
                         "state": {
+
                             "selected": false
+
                         }
+
 						}, {
-                        "text": "Correct header fields",
+
+                        "text": "Logging console 2: Wrong config mode command",
+
                         "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
-						}
+
+						},
+
+                        {
+
+                        "text": "Logging console 3: Wrong syntax or keyword",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging console 4: Command missing",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging console 5: Validate priority",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging console 6: Right config deleting command",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging console 7: Delete logging level config when not config",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging console 8: Wrong config mode command",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging console 9: Wrong syntax or keyword",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging console 10: Command missing",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        }
+
 						]
+
 					}, 
+
 				{
-                
-                        "text": "test_suite_2.robot",
-                        "icon": "https://cdn.rawgit.com/tung-lethanh6596/IPC-Ex/453505b4/page_icon.png",
+
+                        "text": "Logging_level.robot",
+
+                        "icon": "https://cdn.rawgit.com/tung-lethanh6596/IPC-Ex/453505b4/folder.png",
+
                 		"state": {
+
                 			"selected": false
-						}
-				}
-                ]
+
+						},
+
+                        "children": [{
+
+                        "text": "Logging level 1: Right config command",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png",
+
+                        "state": {
+
+                            "selected": false
+
+                        }
+
+                        }, {
+
+                        "text": "Logging level 2: Wrong config mode command",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging level 3: Wrong syntax command",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging level 4: Command missing",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging level 5: Validate priority",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging level 6: Right config deleting command",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging level 7: Delete logging level config when not config",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging level 8: Wrong config mode command",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging level 9: Wrong syntax or keyword",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging level 10: Command missing",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        }
+
+                        ]
+
+				},
+
+                {
+
+                        "text": "Logging_logfile.robot",
+
+                        "icon": "https://cdn.rawgit.com/tung-lethanh6596/IPC-Ex/453505b4/folder.png",
+
+                        "state": {
+
+                            "selected": false
+
+                        },
+
+                        "children": [{
+
+                        "text": "Logging logfile 1: Right config command",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png",
+
+                        "state": {
+
+                            "selected": false
+
+                        }
+
+                        }, {
+
+                        "text": "Logging logfile 2: Wrong config mode command",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging logfile 3: Wrong syntax or keyword",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging logfile 4: Command missing",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging logfile 5: Validate size",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging logfile 6: Validate logfile name",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging logfile 7: Right config deleting command",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging logfile 8: Delete logging level config when not config",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging logfile 9: Wrong config mode command",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging logfile 10: Wrong syntax or keyword",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging logfile 11: Command missing",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        }
+
+                        ]
+
+                },
+
+                {
+
+                        "text": "Logging_server.robot",
+
+                        "icon": "https://cdn.rawgit.com/tung-lethanh6596/IPC-Ex/453505b4/folder.png",
+
+                        "state": {
+
+                            "selected": false
+
+                        },
+
+                        "children": [{
+
+                        "text": "Logging server 1: Right config command",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png",
+
+                        "state": {
+
+                            "selected": false
+
+                        }
+
+                        }, {
+
+                        "text": "Logging server 2: Wrong config mode command",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging server 3: Wrong syntax or keyword",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging server 4: Command missing",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging server 5: IP not available",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging server 6: Validate priority",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging server 7: Right config deleting command",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging server 8: Delete logging level config when not config",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging server 9: Wrong config mode command",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging server 10: Wrong syntax or keyword",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging server 11: Command missing",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        }
+
+                        ]
+
+                },
+
+                {
+
+                        "text": "Logging_TFTP_server.robot",
+
+                        "icon": "https://cdn.rawgit.com/tung-lethanh6596/IPC-Ex/453505b4/folder.png",
+
+                        "state": {
+
+                            "selected": false
+
+                        },
+
+                        "children": [{
+
+                        "text": "Logging TFTP 1: Right config command",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png",
+
+                        "state": {
+
+                            "selected": false
+
+                        }
+
+                        }, {
+
+                        "text": "Logging TFTP 2: Wrong config mode command",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging TFTP 3: Wrong syntax or keyword",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging TFTP 4: Command missing",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging TFTP 5: Right config deleting command",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging TFTP 6: Wrong config mode command",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging TFTP 7: Wrong syntax or keyword",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging TFTP 8: Command missing",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        },
+
+                        {
+
+                        "text": "Logging TFTP 9: Delete logging level config when not config",
+
+                        "icon": "https://cdn.rawgit.com/orangehill/jstree-bootstrap-theme/f30e3fc7/demo/assets/images/tree_icon.png"
+
+                        }]
+
                 }
+
+                ]
+
+                }
+
     ]
+
 }]
