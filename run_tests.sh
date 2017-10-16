@@ -5,7 +5,7 @@ testfiles=""
 oldtestfile=""
 while read -r test
 do
-    cnt=`echo $test | sed 's/\//\n/g' | wc -l`
+    cnt=`echo $(test::-1) | sed 's/\//\n/g' | wc -l`
     cnt=$(($cnt - 1))
     before=$(($cnt - 1))
     testcase=`echo $test | cut -d'/' -f$cnt`
